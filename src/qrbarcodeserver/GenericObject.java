@@ -3,11 +3,7 @@ package qrbarcodeserver;
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import java.util.HashMap;
 import java.util.Map;
-import org.restlet.data.MediaType;
-import org.restlet.representation.Representation;
-import org.restlet.representation.StringRepresentation;
-import org.restlet.resource.Get;
-import org.restlet.resource.ServerResource;
+
 
 //public class GenericObject extends ServerResource implements IGenericObject{
 public class GenericObject {
