@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="C:/lib"/>
+	<classpathentry exported="true" kind="lib" path="C:/lib/org.restlet.jar"/>
+	<classpathentry kind="lib" path="C:/lib/com.fasterxml.jackson_2.4/com.fasterxml.jackson.annotations.jar"/>
+	<classpathentry kind="lib" path="C:/lib/com.fasterxml.jackson_2.4/com.fasterxml.jackson.core.jar"/>
+	<classpathentry kind="lib" path="C:/lib/com.fasterxml.jackson_2.4/com.fasterxml.jackson.csv.jar"/>
+	<classpathentry kind="lib" path="C:/lib/com.fasterxml.jackson_2.4/com.fasterxml.jackson.databind.jar"/>
+	<classpathentry kind="lib" path="C:/lib/com.fasterxml.jackson_2.4/com.fasterxml.jackson.jaxb.jar"/>
+	<classpathentry kind="lib" path="C:/lib/com.fasterxml.jackson_2.4/com.fasterxml.jackson.jsonschema.jar"/>
+	<classpathentry kind="lib" path="C:/lib/com.fasterxml.jackson_2.4/com.fasterxml.jackson.smile.jar"/>
+	<classpathentry kind="lib" path="C:/lib/com.fasterxml.jackson_2.4/com.fasterxml.jackson.xml.jar"/>
+	<classpathentry kind="lib" path="C:/lib/com.fasterxml.jackson_2.4/com.fasterxml.jackson.yaml.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
