@@ -36,7 +36,7 @@ public class RouterGoServer extends Application{
         router.attach("/genericobject/{id}",GenericObjectResource.class);
        //
         //router.attach("/genericObject",GenericObjectResource.class);
-        System.out.println("--********--");
+        System.out.println("---********---");
         return router;
     }
     
