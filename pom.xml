@@ -30,7 +30,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.restlet.ee</groupId>
+            <groupId>org.restlet.core</groupId>
             <artifactId>org.restlet</artifactId>
             <version>2.3</version>
         </dependency>
