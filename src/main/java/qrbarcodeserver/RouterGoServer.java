@@ -32,7 +32,7 @@ public class RouterGoServer extends Application{
         Router router = new Router(getContext());
        
         router.attach("/genericobject/{id}",GenericObjectResource.class);
-       
+       //
         //router.attach("/genericObject",GenericObjectResource.class);
         System.out.println("********");
         return router;
