@@ -20,11 +20,19 @@ public class RouterGoServer extends Application{
     public static void main(String[ ] args) throws Exception {
 
         Component c = new Component();
-        c.getServers().add(Protocol.HTTP, Integer.parseInt(System.getenv("PORT")));
+        c.getServers().add(Protocol.HTTP, caricaPorta());
         c.getDefaultHost().attach(new RouterGoServer());
 
         c.start();
-    } 
+    }
+
+    public static int caricaPorta() {
+        String port = System.getenv("PORT");
+        if(port == null){
+            return 80;
+        }
+        return Integer.parseInt(port);
+    }
     
     @Override
     public synchronized Restlet createInboundRoot() {
