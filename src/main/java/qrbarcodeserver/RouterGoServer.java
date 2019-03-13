@@ -20,9 +20,7 @@ public class RouterGoServer extends Application{
     public static void main(String[ ] args) throws Exception {
 
         Component c = new Component();
-        //c.getServers().add(Protocol.HTTP, 8182);
-        c.getServers().add(Protocol.HTTP);
-        //c.getServers().add(Protocol.HTTPS, "https://frozen-cliffs-97695.herokuapp.com/");
+        c.getServers().add(Protocol.HTTP, Integer.parseInt(System.getenv("PORT")));
         c.getDefaultHost().attach(new RouterGoServer());
 
         c.start();
@@ -36,7 +34,7 @@ public class RouterGoServer extends Application{
         router.attach("/genericobject/{id}",GenericObjectResource.class);
        //
         //router.attach("/genericObject",GenericObjectResource.class);
-        System.out.println("---********---");
+        System.out.println("--********--");
         return router;
     }
     
