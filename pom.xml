@@ -31,7 +31,8 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>QRBarCodeServerRouting2.0.src.main.java.RouterGoServer</mainClass>
+                            <mainClass>QRBarCodeServerRouting2.0.src.main.java.qrbarcodeserver.RouterGoServer</mainClass>
+                            <!--C:\Users\franc\Desktop\progettoServerGit\QRBarCodeServerRouting2.0\src\main\java\qrbarcodeserver\RouterGoServer.java-->
                         </manifest>
                     </archive>
                     <descriptorRefs>
