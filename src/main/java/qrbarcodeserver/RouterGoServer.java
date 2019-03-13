@@ -21,7 +21,7 @@ public class RouterGoServer extends Application{
 
         Component c = new Component();
         //c.getServers().add(Protocol.HTTP, 8182);
-        c.getServers().add(Protocol.HTTPS);
+        c.getServers().add(Protocol.HTTP);
         //c.getServers().add(Protocol.HTTPS, "https://frozen-cliffs-97695.herokuapp.com/");
         c.getDefaultHost().attach(new RouterGoServer());
 
