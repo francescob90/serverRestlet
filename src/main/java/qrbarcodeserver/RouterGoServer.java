@@ -35,7 +35,7 @@ public class RouterGoServer extends Application{
     }
     
     @Override
-    public synchronized Restlet createInboundRoot() {
+    public Restlet createInboundRoot() {
         
         Router router = new Router(getContext());
        
