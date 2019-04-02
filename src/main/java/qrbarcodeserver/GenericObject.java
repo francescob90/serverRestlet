@@ -60,7 +60,7 @@ public class GenericObject {
 //        System.out.println("GET - GenObj");
 //        return "ZAZZAZZAZAZZ";
 //    }
-    
+
 //    @Get
 //	public String toString() {
 //            Model model = new Model();
@@ -69,27 +69,27 @@ public class GenericObject {
 //            //GenericObject testo = resourcesList.get(0);
 //            return "scrivi json" + testo;
 //	}
-    
+
 //    @Get
 //    public String toString(){
 //        return "genericObjects";
 //    }
-//    
+//
 //    @Get("json")
 //    public Representation getJSON() {
 //        String id = (String) getRequest().getAttributes().get("id");
 //        return new StringRepresentation(this.id,MediaType.APPLICATION_JSON);
 //    }
-//    
-    
-    
+//
 
-    
-    
-    
-        
-        
-        
-	
+
+
+
+
+
+
+
+
+
 
 }

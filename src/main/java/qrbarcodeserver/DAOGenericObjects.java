@@ -26,6 +26,8 @@ public class DAOGenericObjects extends ServerResource implements IDAOGenericObje
                 gen1.putString("Nome", "Francesco");
                 gen1.putString("Cognome", "Barbella");
                 gen1.putString("Mail", "francesco.barbella@gmail.com");
+                gen1.putString("Facebook","https://www.facebook.com/francesco.barbella.3");
+                gen1.putString("Instagram","https://www.instagram.com/francescob90/");
 		
                 gen2.setId("FB274KL");
                 gen2.setTipo("Auto");

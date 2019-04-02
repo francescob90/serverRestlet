@@ -16,16 +16,13 @@ public class Repository {
 
 	//private List<GenericResource> resourcesList = new ArrayList<>();
 	private Map<String,GenericObject> resourcesList = new HashMap<>();
-	//private List<GenericResourceCar> resourcesCarList = new ArrayList<>();
+
 	
 	/*public void addResouce(GenericObject genericResource) {
 		this.resourcesList.add(genericResource);
 	}
 	
-	public void addResouceCar(GenericResourceCar genericResourceCar) {
-		this.resourcesCarList.add(genericResourceCar);
-	}
-	
+
 	public List<GenericResource> getResourcesList() {
 		return resourcesList;
 	}
@@ -46,13 +43,7 @@ public class Repository {
         
             
 
-//	public List<GenericResourceCar> getResourcesCarList() {
-//		return resourcesCarList;
-//	}
-//
-//	public void setResourcesCarList(List<GenericResourceCar> resourcesCarList) {
-//		this.resourcesCarList = resourcesCarList;
-//	}
+
         
 //        @Get
 //	public String toString() {
@@ -65,7 +56,8 @@ public class Repository {
 //	}
 
     public GenericObject get(String key) {
-        return resourcesList.get(key);
+
+            return resourcesList.get(key);
     }
     
 //    @Get
